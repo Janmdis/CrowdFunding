@@ -1,0 +1,183 @@
+.maxWidth{
+	margin: auto;
+	width: 1200px;
+	height: 100%;
+	position: relative;
+}
+.floatLeft{
+	float:left;
+}
+.floatRight{
+	float:right;
+}
+.clearfix:after
+{
+visibility: hidden;
+display: block;
+font-size: 0;
+content: ".";
+clear: both;
+height: 0;
+}
+.header{
+	width: 100%;
+}
+.header .bgBannerOne{
+	background: url(../img/publicHeaderBg.png) ;
+	height: 45px;
+	width: 100%;
+	line-height: 45px;
+
+	
+}
+.center-xy{
+    position:absolute;                         
+    top:50%;             
+    left:50%;             
+    transform:translate(-50%,-50%);             
+    -webkit-transform:translate(-50%,-50%);             
+    -moz-transform:translate(-50%,-50%);            
+    -ms-transform:translate(-50%,-50%);
+}
+.center-x{
+    position:absolute;                                    
+    left:50%;             
+    transform:translateX(-50%);             
+    -webkit-transform:translateX(-50%);             
+    -moz-transform:translateX(-50%);            
+    -ms-transform:translateX(-50%);
+}
+.center-y{
+    position:absolute;                                     
+    top:50%;             
+    transform:translateY(-50%);             
+    -webkit-transform:translateY(-50%);             
+    -moz-transform:translateY(-50%);            
+    -ms-transform:translateY(-50%);
+}
+.bgBannerOne span{
+	display: inline-block;
+	color:#fff;
+}
+.bgBannerOne span:nth-child(1){
+	width: 26px;
+	height: 18px;
+	line-height: 18px;
+	border-right: 1px solid #fff;
+	vertical-align:middle;
+}
+.header .bgBannerTwo{
+	height: 84px;
+	line-height: 84px;
+}
+.header .imgWidth{
+	width: 40px;
+	height: 100%;
+}
+.imgWidth h2{
+	width: 200px;
+	font-size: 22px;
+	line-height:6px;
+	padding: 16px 0 0 44px;
+
+}
+.imgWidth h2 p {
+	font-size: 14px;
+}
+.textletter{
+		letter-spacing: 1px;
+}
+.loginA a{
+	text-decoration: none;
+	color:#2a0936 ;
+	font-size: 16px;
+}
+.loginA span{
+	color: #f8b81a;
+	font-size: 12px;
+	position: relative;
+	top:-2px;
+}
+.footer{
+	height: 336px;
+	background: url(../img/publicHeaderBg.png);
+	width: 100%;
+	font-size: 16px;
+}
+.footer .ftUl{
+	color: #fff;
+}
+.bottomBox{
+	color: #fff;
+	font-size: 12px;
+}
+ul,ol{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.ftUl{
+	padding-top:102px ;
+}
+.ftUl li{
+	float: left;
+	font-size: 12px;	
+	height: 96px;
+	border-left: 1px solid #fff;
+}
+.ftUl li h3{
+	margin: 0;
+	margin-bottom:20px ;
+	font-size: 14px;
+	font-weight: 0;
+}
+.ftUl li:nth-child(1){
+	padding-left: 112px;
+	width: 129px;
+	padding-right: 58px;
+}
+.ftUl li:nth-child(1) a{
+	float: left;
+	margin-right:14px;
+	margin-bottom: 5px;
+}
+.ftUl li:nth-child(2){
+	padding-left:60px ;
+	padding-right: 60px;
+}
+.ftUl li:nth-child(2) p{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.ftUl li:nth-child(3){
+	width: 400px;
+	padding-left:80px ;
+}
+.ftUl li:nth-child(3) p{
+	margin: 0;
+	width: 150px;
+	font-size: 12px;
+	float: left;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+.ftUl li:nth-child(3) .lefsplice{
+	margin-left: 52px;
+	width: 200px;
+}
+.ftUl li:nth-child(3) img{
+	float: left;
+}
+.ftUl li:nth-child(3) .telText{
+	float: left;
+	border: 2px solid #fff;
+	padding: 6px 40px;
+	margin-top: 24px;
+}
+.bottomBox{
+	margin-top: 70px;
+	text-align: center;
+}
+.bottomBox p{
+	margin:8px 10px;
+}
